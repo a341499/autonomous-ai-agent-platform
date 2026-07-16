@@ -625,8 +625,6 @@ User Request → Knowledge Agent → Planning Agent → Research Agent → Revie
 
 
 
-```text
-
 Enterprise AI Knowledge Platform implementation plan generated successfully.
 
 
