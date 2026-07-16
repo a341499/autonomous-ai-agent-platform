@@ -611,14 +611,9 @@ The Agent Orchestrator coordinates the following execution pipeline:
 | 5    | Execution Agent | Produce the final consolidated response     |
 
 
-
-```text
-
 \### Example Execution Flow
 
 
-
-```text
 
 User Request → Knowledge Agent → Planning Agent → Research Agent → Reviewer Agent → Execution Agent → Workflow Summary → Memory Service → Final Response
 
