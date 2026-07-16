@@ -256,28 +256,16 @@ autonomous-ai-agent-platform/
 \### Directory Responsibilities
 
 
-
-| Directory | Responsibility |
-
-|-----------|----------------|
-
-| `agents` | Specialized AI agents responsible for each workflow stage |
-
-| `config` | Centralized configuration, application settings, and constants |
-
-| `models` | Workflow state and shared data models |
-
-| `orchestration` | Coordinates execution across all AI agents |
-
-| `services` | Shared services including Ollama integration and ChromaDB memory |
-
-| `utils` | Reusable helper utilities |
-
-| `data` | Persistent vector database storage |
-
-| `logs` | Application execution logs |
-
-
+| Directory      | Responsibility                                     |
+|--------------|-------------------------------------------------|
+| agents       | Specialized AI agents responsible for each workflow stage        |
+| config       | Centralized configuration, application settings, and constants      |
+| models       | Workflow state and shared data models                        |
+| orchestration | Coordinates execution across all AI agents         |
+| services     | Shared services including Ollama integration and ChromaDB memory      |
+| utils        | Reusable helper utilities                                  |
+| data        | Persistent vector database storage                            |
+| logs        | Application execution logs                                    |
 
 \## Installation
 
@@ -441,17 +429,12 @@ Configure the following environment variables as required.
 
 
 
-| Variable | Description | Example |
-
-|----------|-------------|---------|
-
-| `LLM\_MODEL` | Ollama language model used by the platform | `llama3.2` |
-
-| `EMBEDDING\_MODEL` | Embedding model used for semantic search | `nomic-embed-text` |
-
-| `CHROMA\_DB\_PATH` | Directory for persistent ChromaDB storage | `./data/chromadb` |
-
-| `LOG\_LEVEL` | Application logging level | `INFO` |
+| Variable          | Description                                 | Example             |
+|------------------|-------------------------------------|--------------------|
+| `LLM_MODEL`        | Ollama language model used by the platform         | `llama3.2`          |
+| `EMBEDDING_MODEL`    | Embedding model used for semantic search         | `nomic-embed-text`   |
+| `CHROMA_DB_PATH`    | Directory for persistent ChromaDB storage | `./data/chromadb`  |
+| `LOG_LEVEL`        | Application logging level                  | `INFO`              |
 
 
 
@@ -619,20 +602,13 @@ The Agent Orchestrator coordinates the following execution pipeline:
 
 
 
-| Step | Agent | Responsibility |
-
-|------|--------|----------------|
-
-| 1 | Knowledge Agent | Retrieve relevant context and knowledge |
-
-| 2 | Planning Agent | Generate a structured implementation plan |
-
-| 3 | Research Agent | Perform additional analysis and recommendations |
-
-| 4 | Reviewer Agent | Review the generated solution for completeness |
-
-| 5 | Execution Agent | Produce the final consolidated response |
-
+| Step | Agent            | Responsibility                                   |
+|------|-----------------|--------------------------------------------|
+| 1    | Knowledge Agent   | Retrieve relevant context and knowledge                |
+| 2    | Planning Agent   | Generate a structured implementation plan    |
+| 3    | Research Agent   | Perform additional analysis and recommendations |
+| 4    | Reviewer Agent   | Review the generated solution for completeness    |
+| 5    | Execution Agent | Produce the final consolidated response     |
 
 
 
