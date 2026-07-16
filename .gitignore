@@ -1,0 +1,53 @@
+# ==========================================================
+# AIGA Portfolio Project
+# Project #7 - Autonomous AI Agent Platform
+# Git Ignore Rules
+# ==========================================================
+
+# Python virtual environment
+venv/
+.venv/
+
+# Environment variables
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Test & type-check caches
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Application logs
+logs/*
+!logs/.gitkeep
+
+# ChromaDB persistent data
+data/chromadb/
+
+# Temporary audit files
+tree.txt
+repository_structure.txt
+
+# ChromaDB runtime data
+data/chroma_db/
+
+# Keep the data directory itself
+!data/.gitkeep
