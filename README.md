@@ -635,9 +635,6 @@ The Agent Orchestrator coordinates the following execution pipeline:
 
 
 
-\### Example Execution Flow
-
-
 
 ```text
 
